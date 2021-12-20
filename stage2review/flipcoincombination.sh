@@ -93,20 +93,20 @@ done
 
 echo ${coin[@]}
 echo ${!coin[@]}
-HH=`expr "scale=3; ( ${coin[HH]} / $plays ) * 100" | bc -l`
-HT=`expr "scale=3; ( ${coin[HT]} / $plays ) * 100" | bc -l`
-TT=`expr "scale=3; ( ${coin[TT]} / $plays ) * 100" | bc -l`
-TH=`expr "scale=3; ( ${coin[TH]} / $plays ) * 100" | bc -l`
-H=`expr "scale=3; ( ${coin[H]} / $plays ) * 100" | bc -l`
-T=`expr "scale=3; ( ${coin[T]} / $plays ) * 100" | bc -l`
-HHH=`expr "scale=3; ( ${coin[HHH]} / $plays ) * 100" | bc -l`
-HHT=`expr "scale=3; ( ${coin[HHT]} / $plays ) * 100" | bc -l`
-HTT=`expr "scale=3; ( ${coin[HTT]} / $plays ) * 100" | bc -l`
-TTT=`expr "scale=3; ( ${coin[TTT]} / $plays ) * 100" | bc -l`
-THH=`expr "scale=3; ( ${coin[THH]} / $plays ) * 100" | bc -l`
-TTH=`expr "scale=3; ( ${coin[TTH]} / $plays ) * 100" | bc -l`
-THT=`expr "scale=3; ( ${coin[THT]} / $plays ) * 100" | bc -l`
-HTH=`expr "scale=3; ( ${coin[HTH]} / $plays ) * 100" | bc -l`
+HH='expr "scale=3; ( ${coin[HH]} / $plays ) * 100" | bc -l'
+HT='expr "scale=3; ( ${coin[HT]} / $plays ) * 100" | bc -l'
+TT='expr "scale=3; ( ${coin[TT]} / $plays ) * 100" | bc -l'
+TH='expr "scale=3; ( ${coin[TH]} / $plays ) * 100" | bc -l'
+H='expr "scale=3; ( ${coin[H]} / $plays ) * 100" | bc -l'
+T='expr "scale=3; ( ${coin[T]} / $plays ) * 100" | bc -l'
+HHH='expr "scale=3; ( ${coin[HHH]} / $plays ) * 100" | bc -l'
+HHT='expr "scale=3; ( ${coin[HHT]} / $plays ) * 100" | bc -l'
+HTT='expr "scale=3; ( ${coin[HTT]} / $plays ) * 100" | bc -l'
+TTT='expr "scale=3; ( ${coin[TTT]} / $plays ) * 100" | bc -l'
+THH='expr "scale=3; ( ${coin[THH]} / $plays ) * 100" | bc -l'
+TTH='expr "scale=3; ( ${coin[TTH]} / $plays ) * 100" | bc -l'
+THT='expr "scale=3; ( ${coin[THT]} / $plays ) * 100" | bc -l'
+HTH='expr "scale=3; ( ${coin[HTH]} / $plays ) * 100" | bc -l'
 
 printf "H percentage: $H \nT percentage: $T \n"
 printf "HH percentage: $HH \nHT percentage: $HT \nTT percentage: $TT\nTH percentage: $TH\n"
